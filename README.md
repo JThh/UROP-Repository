@@ -1,4 +1,6 @@
-# Knowledge Graph Attention Network
+# UROP Project Repository Site
+This repo contains the codes and partial datasets that I used for my UROP. The thesis is accessible [here](https://drive.google.com/file/d/1f26YuKNQAWCBWztKdPFQNwDPigz1NYf7/view?usp=sharing). Raw data and preprocessing scripts are only shared to restricted members under PDPA. Below is the original readme file from the [repo](https://github.com/LunaBlack/KGAT-pytorch) I forked from.
+
 This is PyTorch implementation for the paper:
 >Xiang Wang, Xiangnan He, Yixin Cao, Meng Liu and Tat-Seng Chua (2019). KGAT: Knowledge Graph Attention Network for Recommendation. [Paper in ACM DL](https://dl.acm.org/authorize.cfm?key=N688414) or [Paper in arXiv](https://arxiv.org/abs/1905.07854). In KDD'19, Anchorage, Alaska, USA, August 4-8, 2019.
 
