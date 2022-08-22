@@ -45,7 +45,7 @@ def parse_cke_args():
 
     parser.add_argument('--print_every', type=int, default=1,
                         help='Iter interval of printing CF loss.')
-    parser.add_argument('--evaluate_every', type=int, default=10,
+    parser.add_argument('--evaluate_every', type=int, default=5,
                         help='Epoch interval of evaluating CF.')
 
     parser.add_argument('--Ks', nargs='?', default='[20, 40, 60, 80, 100]',

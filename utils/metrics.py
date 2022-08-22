@@ -24,9 +24,16 @@ def precision_at_k_batch(hits, k):
     calculate Precision@k
     hits: array, element is binary (0 / 1), 2-dim
     """
-    res = hits[:, :k].mean(axis=1)
-    return res
+    res = []
 
+    for hit in hits:
+        res.append(average_precision(hit,k))
+    return np.array(res)
+
+
+def mean_average_precision(hits, cut):
+    res = [average_precision(hit, cut) for hit in hits]
+    return sum(res) / float(len(res))
 
 def average_precision(hit, cut):
     """
